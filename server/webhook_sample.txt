@@ -1,0 +1,6 @@
+# Razorpay webhook/sample server (placeholder)
+# Suggested: Implement a small Node.js server that creates Payment Links and verifies webhooks.
+# Example flow:
+# 1) Use Razorpay Orders / Payment Links API on your server with your secret key.
+# 2) On successful payment webhook, verify signature and update Firestore record.
+# See Razorpay docs for sample code.
